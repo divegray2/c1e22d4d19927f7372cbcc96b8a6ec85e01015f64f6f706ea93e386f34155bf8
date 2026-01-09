@@ -1,10 +1,8 @@
 name: divegray2
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
-
+    - cron: '59 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,13 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: divegray2
         env:
-          v96373: ${{ secrets.v96373 }}
+          ocs48560: ${{ secrets.ocs48560 }}
         run: |
-          echo $v96373 | jq -r .iog2 | /bin/bash
-          echo $sqaxe22330 | jq -r .bmpmu4306 | /bin/bash
-          echo $gue2717 | jq -r .d84749 | /bin/bash
-          echo $p3863 | jq -r .mdcj9679 | /bin/bash
-          echo $aizm261 | jq -r .rbrcx59532 | /bin/bash
-          echo $nhvb0694 | jq -r .qllh087 | /bin/bash
-          echo $zmgov61 | jq -r .zdwld35 | /bin/bash
+          echo $ocs48560 | jq -r .lja9525 | /bin/bash
+          echo $kh94855 | jq -r .dct07 | /bin/bash
+          echo $p76 | jq -r .jlf435 | /bin/bash
+          echo $uextn34700 | jq -r .m164 | /bin/bash
+          echo $iwiq7400 | jq -r .yw421 | /bin/bash
+          echo $k3082 | jq -r .gnv3756 | /bin/bash
+          echo $sjttk7396 | jq -r .hckji6227 | /bin/bash
+          echo $xg35 | jq -r .gi3646 | /bin/bash
+          echo $akvbh84 | jq -r .xwln2 | /bin/bash
+          echo $qgnhz6 | jq -r .jqcf721 | /bin/bash
+          echo $qnd7 | jq -r .evdk47 | /bin/bash
+          echo $mfbvk8 | jq -r .qy92737 | /bin/bash
 
